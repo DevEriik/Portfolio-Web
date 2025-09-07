@@ -1,0 +1,23 @@
+#obligatorio-span {
+  color: red;
+}
+
+/* Estilos para los campos del formulario */
+.form-control {
+  background-color: #212121 !important; /* Un gris oscuro más claro que el fondo principal */
+  color: #f0f0f0 !important; /* Texto blanco-roto */
+  border: 1px solid #444444 !important; /* Borde más oscuro y sutil */
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+  color: #f0f0f0 !important; /* Texto de la etiqueta del mismo color que el texto principal */
+}
+
+/* Opcional: Estilo al hacer foco en un campo */
+.form-control:focus {
+  background-color: #212121;
+  color: #f0f0f0;
+  border-color: #00c8ff !important; /* El color de acento al hacer foco */
+  box-shadow: 0 0 0 0.25rem rgba(0, 200, 255, 0.25) !important; /* Un resplandor sutil */
+}

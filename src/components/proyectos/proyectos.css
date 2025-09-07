@@ -1,0 +1,47 @@
+/*
+ * Estilos para el componente de Proyectos
+ * --------------------------------------
+ * Este CSS se asegura de que las tarjetas y los botones
+ * se vean bien en el tema oscuro del portafolio.
+ */
+
+/* Estilos para las Cards de tus proyectos */
+.card-proyectos {
+  background-color: #212121 !important; /* <--- ¡Añade esto aquí! */
+  color: #f0f0f0 !important; /* <--- ¡Y aquí! */
+  border: 1px solid #333333 !important; /* <--- Y aquí */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los títulos de las Cards */
+.card-proyectos .card-title {
+  color: #00c8ff !important; /* <--- ¡Y aquí! */
+}
+
+/* 1. Estilo para el botón "Ver Código" (btn-primary) */
+.card-proyectos .btn-primary {
+  background-color: #00c8ff !important;
+  border-color: #00c8ff !important;
+  color: #121212 !important;
+}
+
+/* Efecto hover para el botón primario */
+.card-proyectos .btn-primary:hover {
+  background-color: #00a0cc !important;
+  border-color: #00a0cc !important;
+  color: #121212 !important;
+}
+
+/* 2. Estilo para el botón "Ver Sitio" (btn-secondary) */
+.card-proyectos .btn-secondary {
+  background-color: transparent !important;
+  border-color: #f0f0f0 !important;
+  color: #f0f0f0 !important;
+}
+
+/* Efecto hover para el botón secundario */
+.card-proyectos .btn-secondary:hover {
+  background-color: #f0f0f0 !important;
+  border-color: #f0f0f0 !important;
+  color: #121212 !important;
+}

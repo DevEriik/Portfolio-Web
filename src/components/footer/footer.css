@@ -1,0 +1,29 @@
+.footer-component a {
+  text-decoration: none;
+  color: rgb(165, 162, 162);
+}
+
+.footer-component a:hover {
+  color: rgb(57, 131, 196);
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #1a1a1a; /* Un gris oscuro para el fondo del footer */
+  color: #f0f0f0; /* Texto del mismo color que el resto de la página */
+  padding: 20px 0; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilos para los enlaces (íconos) dentro del footer */
+footer a {
+  color: #f0f0f0; /* Color claro para los íconos de redes sociales */
+  margin: 0 10px;
+  text-decoration: none; /* Elimina la línea debajo de los enlaces */
+  transition: color 0.3s ease; /* Suaviza la transición al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse sobre los íconos */
+footer a:hover {
+  color: #00c8ff; /* El color de acento para los íconos */
+}

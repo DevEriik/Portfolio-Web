@@ -1,0 +1,9 @@
+/* Estilos para el texto de la barra de navegación */
+.navbar a {
+  color: #f0f0f0 !important; /* Fuerza el color blanco-roto */
+}
+
+/* Estilos al pasar el mouse sobre los enlaces del navbar */
+.navbar a:hover {
+  color: #00c8ff !important; /* Cambia al color de acento al pasar el mouse */
+}
