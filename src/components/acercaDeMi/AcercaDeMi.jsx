@@ -15,7 +15,7 @@ const AcercaDeMi = () => {
           {" "}
           {/* ¡Esta es la columna para la foto! */}
           <img
-            src="./../../../public/img/perfil.jpeg"
+            src="./../../../assets/img/perfil.jpeg"
             alt="Foto Perfil"
             className="img-fluid rounded-circle"
             style={{ maxWidth: "200px", objectFit: "cover" }} // Añadí objectFit para el círculo perfecto
